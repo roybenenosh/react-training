@@ -1,0 +1,12 @@
+body {
+  background: beige;
+}
+
+.select-color {
+  margin-bottom: 20px;
+}
+
+select {
+  height: 30px;
+  width: 204px;
+}

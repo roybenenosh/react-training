@@ -1,0 +1,19 @@
+body {
+  background: beige;
+}
+
+.square-select-wrapper .square {
+  margin: 20px;
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+
+.square-select-wrapper button {
+  height: 30px;
+  background-color: green;
+  margin-left: 20px;
+  font-weight: 600;
+  font-size: 16px;
+}

@@ -1,0 +1,22 @@
+body {
+  background: beige;
+}
+
+.login-wrapper {
+  display: table;
+  margin: 0 auto;
+  width: auto;
+}
+
+.row {
+  margin-bottom: 10px;
+}
+
+label {
+  width: 20%;
+  margin-right: 20px;
+}
+
+input {
+  width: 70%;
+}

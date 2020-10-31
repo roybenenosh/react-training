@@ -1,0 +1,19 @@
+body {
+  background: beige;
+}
+
+.sortable-table-wrapper {
+  font-size: 18px;
+}
+
+table {
+  margin: 0 auto;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  text-align: left;
+  min-width: 50px;
+}

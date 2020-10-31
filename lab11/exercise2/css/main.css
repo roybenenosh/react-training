@@ -1,0 +1,16 @@
+body {
+  background: beige;
+}
+
+.time-unit-input-wrapper {
+  margin-bottom: 20px;
+}
+
+.time-unit-label {
+  width: 70px;
+  display: inline-flex;
+}
+
+input {
+  height: 20px;
+}

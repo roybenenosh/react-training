@@ -1,0 +1,11 @@
+body {
+  background: beige;
+}
+
+.filter-items-wrapper input {
+  height: 20px;
+}
+
+.filtered-items-wrapper .item {
+  font-size: 40px;
+}

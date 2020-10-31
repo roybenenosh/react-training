@@ -1,0 +1,28 @@
+body {
+  background: beige;
+}
+
+.select-color {
+  margin-bottom: 20px;
+}
+
+select {
+  height: 30px;
+  width: 204px;
+}
+
+.color-display {
+  width: max-content;
+  padding: 0;
+}
+
+.tiny-colors-wrapper {
+  border: 1px solid black;
+  height: 50px;
+}
+
+.color-delta {
+  display: inline-block;
+  width: 50px;
+  height: 100%;
+}
