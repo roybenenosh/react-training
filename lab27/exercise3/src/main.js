@@ -11,6 +11,9 @@ const App = () => {
   const [character, setCharacter] = useState({ films: [] });
 
   useEffect(() => {
+    if (!cahracterId) {
+      setCharacter({ films: [] });
+    }
     const $xhr = $.getJSON(
       `https://swapi.dev/api/people/${cahracterId}/`,
       setMovies
