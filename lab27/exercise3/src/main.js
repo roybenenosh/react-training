@@ -31,7 +31,7 @@ const App = () => {
         onCharacterSelect={setCharactedId}
         character={character}
       />
-      {character.films.map(film => (
+      {character.films.slice(0, 20).map(film => (
         <StarWarsFilm film={film} key={film} />
       ))}
     </div>
