@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import $ from 'jquery';
+import $ from 'jquery/dist/jquery';
 
 export default function({ id }) {
   const [movieDetails, setMovieDetails] = useState({});
