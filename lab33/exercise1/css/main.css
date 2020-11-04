@@ -1,0 +1,29 @@
+body {
+  background: beige;
+}
+
+.carousel-wrapper {
+  margin: 0 auto;
+  display: table;
+}
+
+img {
+  position: relative;
+  max-width: 500px;
+  max-height: 500px;
+}
+
+#left,
+#right {
+  height: 40px;
+  width: 80px;
+  border-radius: 20px;
+}
+
+#left {
+  float: left;
+}
+
+#right {
+  float: right;
+}
